@@ -1,0 +1,11 @@
+{
+  "tenantId": "your_tenantId",
+  "subscriptionId": "your_subscription_id",
+  "resourceGroup": "your_DNS_zone_resource_group",
+  "aadClientId": "your_service_principal_addClientId",
+  "aadClientSecret": "your_service_principal_addClientSecret"
+}
+
+
+
+
