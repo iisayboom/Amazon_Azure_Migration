@@ -112,9 +112,7 @@ Finally run the command:
 
 ###Configurations related to Azure PostgreSQL:
 #####Configure network settings on the database
-Because at this moment Azure does not support the linking between an Azure PostgreSQL database and a subnet it is not possible to get a private
-IP-adress on the database. Because of this you need to add a firewall rule which allows the TomTom network. To do this, log into the
-Azure portal, go to the database, open `Connection Security`, click the `Add client ip` button and save.
+Because at this moment Azure does not support the linking between an Azure PostgreSQL database and a subnet it is not possible to get a private IP-adress on the database. Because of this you need to add a firewall rule which makes it so your network is allowed. To do this, log into the Azure portal, go to the database, open `Connection Security`, click the `Add client ip` button and save.
 
 As as a second configuration you need to enable the endpoint between the database and the VNET. To do so, click the VNET-rule and click the enable button.
 
